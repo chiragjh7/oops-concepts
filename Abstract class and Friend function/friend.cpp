@@ -8,7 +8,7 @@ class Rectangle{
         Rectangle(){
             length = 10;
         }
-        int printLength(Rectangle);
+        friend int printLength(Rectangle);
 };
 
 int printLength(Rectangle r){
